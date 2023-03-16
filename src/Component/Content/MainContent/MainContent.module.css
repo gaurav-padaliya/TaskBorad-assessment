@@ -1,0 +1,53 @@
+.MainContent{
+    /* Auto layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5%;
+        gap: 44px;
+    
+        width: 90%;
+        height: 1112px;
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+.Head{
+    /* Auto layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 28px;
+    
+        width: 100%;
+        height: 116px;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+.Boards{
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 100%;
+    height: 844px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}

@@ -1,0 +1,233 @@
+.LeftSidebar{
+    /* Sidebar */
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: relative;
+    width: 20%;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    
+    /* Gray/60 */
+    border-right: 1px solid #E9EBF0
+}
+
+/* __________________________________________________________ Head ____________________________________________ */
+.Head{
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 30px 32px;
+gap: 10%;
+
+width: 100%;
+height: 88px;
+
+/* Gray/60 */
+
+border-bottom: 1px solid #E9EBF0;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.T_Dashboard{
+/* Dashboard */
+
+    width: auto;
+    /* height: 28px; */
+
+    /* Bold/20 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+
+    /* Gray/800 */
+
+    color: #1F2633;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Icon_menu_open{
+    width: 16px;
+    height: 16px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background: url("../../Assets/LeftSIdebar/Vector.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: flex-end;
+}
+/* _____________________________________________________________Content____________________________________________ */
+.Content{
+    /* Content */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10%;
+    gap: 10%;
+
+    width: 80%;
+    height: 1112px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.User{
+    /* User */
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 10%;
+
+    width: 100%;
+    height: 72px;
+
+    /* Gray/60 */
+
+    border-bottom: 1px solid #E9EBF0;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+}
+.User_left{
+/* Left */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 151px;
+    height: 40px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    .User_left_image {
+    /* Avatar */
+
+
+    width: 40px;
+    height: 39px;
+
+    border-radius: 24px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: url("../../Assets/LeftSIdebar/Avatar.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: flex-end;
+    }
+    .User_left_Frame_up{
+    /* Nancy Martino */ 
+        width: 87px;
+        height: 20px;
+    
+        /* Bold/12 */
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 20px;
+        /* identical to box height, or 167% */
+    
+    
+        /* Gray/800 */
+    
+        color: #1F2633;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+.User_left_Frame_down{
+    width: 49px;
+    height: 16px;
+
+    /* Bold/11 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height, or 145% */
+
+
+    /* Gray/200 */
+
+    color: #B8BFCC;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+    .User_right{
+    width: 16px;
+    height: 16px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background: url("../../Assets/LeftSIdebar/Vector1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self:center;
+    }

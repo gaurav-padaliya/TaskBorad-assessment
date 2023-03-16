@@ -1,0 +1,440 @@
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    width: 100%;
+    height: 48px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.heading_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    width: 27%;
+    height: 48px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.heading_left_text{
+    width: 178px;   
+    height: 48px;
+
+    /* Bold/30 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    /* identical to box height, or 160% */
+
+
+    /* Gray/800 */
+
+    color: #1F2633;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.heading_left_icon{
+    width: 24px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background: url("../../../../Assets/Content/MainContent/Head/edit.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: center;
+}
+
+.heading_tab{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    width: 411px;
+    height: 34px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.heading_tab_s{
+/* Auto layout */
+
+    width: 51px;
+    height: 20px;
+
+    /* Bold/12 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+
+    /* Primary/500 */
+    color: #98A2B3;
+    
+}
+.heading_avatar{
+    width: 180px;
+    height: 40px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background: url("../../../../Assets/Content/MainContent/Head/Avatar\ Group.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: center;
+}
+
+
+
+
+
+/* ___________________________________ User _________________________________________*/
+
+.users{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 2%;
+
+    width: 96%;
+    height: 40px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.users_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 70%;
+    height: 40px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.u_l_groupbtn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    width: 200px;
+    height: 40px;
+
+    /* Shadows/Gray/1 Level */
+
+    filter: drop-shadow(0px 1px 3px rgba(96, 108, 128, 0.05));
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.u_l_groupbtn_btn{
+    /* Auto layout */
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* padding: 15px 16px; */
+        gap: 8px;
+    
+        width: 110px;
+        height: 40px;
+    
+        /* Gray/10 */
+    
+        background: #FAFBFC;
+        /* Gray/50 */
+    
+        border: 1px solid #EBEEF2;
+        border-radius: 8px 0px 0px 8px;
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+
+.u_l_groupbtn_btn_icon{
+
+    width: 20px;
+        height: 20px;
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        background: url("../../../../Assets/Content/MainContent/Boards/Icon\ \(2\).svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        align-self: center;
+}
+.u_l_groupbtn_btn_icon1{
+    width: 18px;
+        height: 14px;
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        background: url("../../../../Assets/Content/MainContent/Boards/Vector\ \(3\).svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        align-self: center;
+}
+.u_l_groupbtn_btn_text{
+    width: 67px;
+        height: 20px;
+    
+        /* Bold/12 */
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        /* identical to box height, or 167% */
+    
+        text-align: center;
+    
+        /* Gray/500 */
+    
+        color: #606C80;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+.u_l_line{
+    width: 1px;
+    height: 40px;
+
+    /* Gray/50 */
+
+    background: #EBEEF2;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.u_l_lock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 147px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.u_l_lock_icon{
+    width: 20px;
+    height: 20px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background: url("../../../../Assets/Content/MainContent/Boards/Icon\ \(2\).svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: center;
+}
+.u_l_lock_icon1{
+    width: 20px;
+    height: 20px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background: url("../../../../Assets/Content/MainContent/Boards/keyboard_arrow_down.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: center;
+}
+.u_l_lock_text{
+    width: 83px;
+    height: 16px;
+    /* Bold/11 */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height, or 145% */
+    /* Gray/300 */
+    color: #98A2B3;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.u_l_owner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 170px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+.u_l_owner_text{
+    width: 43px;
+    height: 16px;
+
+    /* Bold/11 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height, or 145% */
+
+
+    /* Gray/300 */
+
+    color: #98A2B3;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.u_l_owner_icon{
+    width: 24px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: url("../../../../Assets/Content/MainContent/Boards/twitter-3\ 1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: center;
+}
+.users_right{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 15%;
+    height: 40px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.users_right_url{
+    width: 200px;
+    height: 32px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: url("../../../../Assets/Content/MainContent/Boards/Right\ Items.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: center;
+}
+.users_default{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    /* gap: 12px; */
+
+    width: 15%;
+    height: 40px;
+
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
