@@ -2,7 +2,6 @@ import React from "react";
 import Style from "./RightSidebar.module.css";
 
 const RightSidebar = () => {
-  const imgurl = "https://i.pravatar.cc/300?img=3";
   return (
     <div className={Style.RightSidebar}>
       <div className={Style.top}>

@@ -1,127 +1,3 @@
-.column{
-    /* Auto layout */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 25px;
-    width: 23%;
-    height: 844px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-.column_head{
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 0px;
-gap: 0px;
-
-width: 100%;
-height: 24px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-}
-.column_head_text{
-/* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 2px;
-
-    width: 70%;
-    height: 24px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-.column_head_text1{
-    width: 70%;
-    height: 20px;
-
-    /* Semibold/14 */
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 20px;
-    /* identical to box height, or 143% */
-
-    /* Gray/800 */
-    color: #1F2633;
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-.column_head_text2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 5px 8.5px;
-    gap: 10px;
-
-    width: 12px;
-    height: 20px;
-/* Extra Bold/10 */
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 10px;
-    line-height: 16px;
-    /* identical to box
-
-    /* Yellow/Opacity/10% */
-
-    background: rgba(234, 179, 8, 0.1);
-    border-radius: 16px;
-
-    /* Inside auto layout */
-    text-align: center;
-
-        /* Yellow/600 */
-
-    color: #CA8A04;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-.column_head_icon{
-    width: 24px;
-    height: 24px;
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    background: url("../../../../Assets/Content/MainContent/Boards/more_horiz.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    align-self: center;
-}
-
 /* ______________________________________colomn_content_______________________________________ */
 
 .column_content {
@@ -132,7 +8,7 @@ flex-grow: 0;
     gap: 12px;
 
     width: 80%;
-    min-height: 60px;
+    height: 136px;
 
     /* White/White */
 
@@ -155,15 +31,15 @@ flex-grow: 0;
     justify-content: space-between;
     align-items: flex-start;
     padding: 0px;
-    gap: 5px;
+    gap: 30px;
 
     width: 100%;
-    height: auto;
+    height: 20px;
 }
 
 .column_content_head_title {
-    width: 130px;
-    height: auto;
+    /* width: 84px; */
+    height: 20px;
 
     /* Semibold/12 */
 
@@ -193,9 +69,9 @@ flex-grow: 0;
     justify-content: flex-end;
     align-items: center;
     padding: 0px;
-    gap: 1px;
+    gap: 8px;
 
-    width: 25px;
+    width: 35px;
     height: 20px;
 
 
@@ -301,7 +177,7 @@ flex-grow: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: end;
+    align-items: center;
     padding: 0px;
     gap: 12px;
 
@@ -322,7 +198,7 @@ flex-grow: 0;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    gap: 3px;
+    gap: 8px;
 
     width: 60%;
     height: 32px;
@@ -364,26 +240,13 @@ flex-grow: 0;
     justify-content: center;
     align-items: center;
     padding: 0px;
-    gap: 5px;
+    gap: 10px;
 
-    width: 50%;
+    width: 25%;
     height: 32px;
 
+    background: url(8);
     /* White/White */
-    background: #F2F4F7;
-    /* Extra Bold/10 */ 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 10px;
-    line-height: 16px;
-    /* identical to box height, or 160% */
-
-    text-align: center;
-
-    /* Gray/500 */
-
-    color: #606C80;
 
     border: 2px solid #FFFFFF;
     border-radius: 24px;
@@ -395,34 +258,7 @@ flex-grow: 0;
     flex-grow: 0;
     margin: 0px -8px;
 }
-
-.ccfa_avatar_icon {
-    /* Auto layout */
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 2px;
-    gap: 1px;
-
-    width: 30%;
-    height: 30px;
-
-    /* White/White */
-
-    background: #FFFFFF;
-    /* Gray/50 */
-
-    border: 2px dashed #EBEEF2;
-    border-radius: 48px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
+.ccfa_avatar_icon{}
 
 
 .column_content_footer_icons {
@@ -432,7 +268,7 @@ flex-grow: 0;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    gap: 3px;
+    gap: 8px;
 
     width: 30%;
     height: 20px;
@@ -444,28 +280,13 @@ flex-grow: 0;
     order: 1;
     flex-grow: 0;
 }
-.ccfa_iconbg{
-    width: 16px;
-    height: 16px;
 
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    background: url("../../../../Assets/Content/MainContent/Boards/Icon\ \(3\).svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-
-
-}
 .ccfi_gp {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 1px;
+    gap: 3px;
 
     width: 22px;
     height: 14px;
@@ -512,49 +333,4 @@ flex-grow: 0;
     flex: none;
     order: 1;
     flex-grow: 0;
-}
-
-.column_main_footers{
-    /* Auto layout */
-    
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 6px;
-        gap: 10px;
-    
-        width: 100%;
-        height: 20px;
-    
-        /* White/White */
-    
-        background: #FFFFFF;
-        /* Gray/30 */
-    
-        border: 1px solid #F2F4F7;
-        /* Shadows/Gray/1 Level */
-    
-        box-shadow: 0px 1px 3px rgba(96, 108, 128, 0.05);
-        border-radius: 8px;
-    
-        /* Inside auto layout */
-    
-        flex: none;
-        order: 5;
-        flex-grow: 0;
-}
-.column_main_footers_icon{
-    width: 20px;
-    height: 20px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    background: url("../../../../Assets/Content/MainContent/Boards/Icon\ \(3\).svg");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
