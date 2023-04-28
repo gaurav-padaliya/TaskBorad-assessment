@@ -14,7 +14,7 @@ const MainContent = () => {
       content: [
         {
           Head: {
-            title: "Model Answer",
+            title: "Model And Answer",
             cnt: 4,
             c_cnt: "rgba(23, 165, 230, 1)",
           },
@@ -201,7 +201,7 @@ const MainContent = () => {
       content: [
         {
           Head: {
-            title: "Model Answer",
+            title: "Model And Answer",
             cnt: 4,
             c_cnt: "rgba(152, 162, 178, 1)",
           },
@@ -339,7 +339,7 @@ const MainContent = () => {
       content: [
         {
           Head: {
-            title: "Model Answer",
+            title: "Model And Answer",
             cnt: 4,
             c_cnt: "rgba(23, 165, 230, 1)",
           },
@@ -370,7 +370,7 @@ const MainContent = () => {
         },
         {
           Head: {
-            title: "Model Answer",
+            title: "Model And Answer",
             cnt: 4,
             c_cnt: "rgba(23, 165, 230, 1)",
           },
@@ -409,7 +409,7 @@ const MainContent = () => {
       content: [
         {
           Head: {
-            title: "Model Answer",
+            title: "Model And Answer",
             cnt: 4,
             c_cnt: "rgba(23, 165, 230, 1)",
           },
@@ -502,7 +502,7 @@ const MainContent = () => {
         },
         {
           Head: {
-            title: "Model Answer",
+            title: "Model And Answer",
             cnt: 4,
             c_cnt: "rgba(23, 165, 230, 1)",
           },
