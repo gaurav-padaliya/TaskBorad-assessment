@@ -51,7 +51,7 @@ const MainContent = () => {
         },
         {
           Head: {
-            title: "Create calendar, chat and email app pages ",
+            title: "Create Calendar by me, chat and email app pages ",
             cnt: 1,
             c_cnt: "rgba(23, 165, 230, 1)",
           },
@@ -294,7 +294,7 @@ const MainContent = () => {
         },
         {
           Head: {
-            title: "Create calendar, chat and email app pages ",
+            title: "Create calendar by me, chat and email app pages ",
             cnt: 1,
             c_cnt: "rgba(23, 165, 230, 1)",
           },
